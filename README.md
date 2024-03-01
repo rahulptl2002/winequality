@@ -1,2 +1,6 @@
 # winequality
 Wine Quality Project
+
+This project entails the development of predictive models to evaluate the quality of wines, beginning with an analysis of the dataset obtained from the UCI Machine Learning Repository. The process involves loading the dataset, recoding the target variable into binary classes based on quality, and conducting exploratory data analysis (EDA) to understand the distribution of features and their relationship with wine quality. The EDA emphasizes the use of pairplots for visualizing the interactions between features.
+
+Three predictive models are developed: Logistic Regression, k-Nearest Neighbors (kNN), and Decision Tree, each undergoing specific preprocessing to optimize performance. The models are evaluated based on Recall, Precision, F1 Score, and ROC AUC metrics. The kNN model, after optimizing for the best 'k' value, emerges as the most effective, demonstrating superior performance in accurately predicting both good and not good quality wines. It achieves the highest scores across all metrics, particularly in Recall for good wines and Precision for both classes, with a notable ROC AUC score of 0.8248. This comprehensive analysis concludes that the kNN model, with its balanced accuracy and predictive power, is the best choice for predicting wine quality in this dataset.
