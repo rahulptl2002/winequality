@@ -1,4 +1,4 @@
-# Wine Quality Project
+# Predicting Wine Quality Using Machine Learning Concepts
 
 This project entails the development of predictive models to evaluate the quality of wines, beginning with an analysis of the dataset obtained from the UCI Machine Learning Repository. The process involves loading the dataset, recoding the target variable into binary classes based on quality, and conducting exploratory data analysis (EDA) to understand the distribution of features and their relationship with wine quality. The EDA emphasizes the use of pairplots for visualizing the interactions between features.
 
